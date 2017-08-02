@@ -16,3 +16,15 @@ services:
             dockerfile: app.docker
         volumes:
             - ./cpl/:/var/www
+        links:
+            - database
+        environment:
+            - "DB_PORT=3306"
+            - "DB_HOST=database"
+    database:
+        image: mysql:5.6
+        environment:
+            - "MYSQL_ROOT_PASSWORD=secretpaint"
+            - "MYSQL_DATABASE=cpl"
+        ports:
+            - "33061:3306"

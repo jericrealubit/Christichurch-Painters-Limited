@@ -1,6 +1,14 @@
 ## Synopsis
 
-At the top of the file there should be a short introduction and/ or overview that explains **what** the project is. This description should match descriptions added for package managers (Gemspec, package.json, etc.)
+This is my personal project. This will also be the official website of my brother in-law's painting company "Christchurch Painters Limited" 2017. http://christchurchpainter.nz/
+
+Technologies used:
+- PHP
+- MySQL
+- Laravel
+- Docker
+- Bootstrap
+- jQuery
 
 ## Code Example
 
